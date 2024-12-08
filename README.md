@@ -2,7 +2,7 @@
 
 ## Database Schema Design
 
-[db-schema]: ./images/leon-bull-db-schema.png
+![db-schema](./images/leon-bull-db-schema.png)
 
 ## API Documentation
 
