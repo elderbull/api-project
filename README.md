@@ -1,4 +1,4 @@
-# `Middle Earth BnB`
+# `API Project`
 
 ## Database Schema Design
 
