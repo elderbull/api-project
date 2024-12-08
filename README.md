@@ -1,8 +1,8 @@
-# `<name of application here>`
+# `Middle Earth BnB`
 
 ## Database Schema Design
 
-`<insert database schema design here>`
+[db-schema]: /images/leon-bull-db-schema.png
 
 ## API Documentation
 
