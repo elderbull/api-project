@@ -49,8 +49,13 @@ Returns the information about the current user that is logged in.
 
 * Require Authentication: false
 * Request
+<<<<<<< Updated upstream
   * Method: ?
   * Route path: ?
+=======
+  * Method: GET
+  * Route path: /api/session
+>>>>>>> Stashed changes
   * Body: none
 
 * Successful Response when there is a logged in user
@@ -90,8 +95,13 @@ information.
 
 * Require Authentication: false
 * Request
+<<<<<<< Updated upstream
   * Method: ?
   * Route path: ?
+=======
+  * Method: POST
+  * Route path: /api/session
+>>>>>>> Stashed changes
   * Headers:
     * Content-Type: application/json
   * Body:
@@ -156,8 +166,13 @@ user's information.
 
 * Require Authentication: false
 * Request
+<<<<<<< Updated upstream
   * Method: ?
   * Route path: ?
+=======
+  * Method: POST
+  * Route path: /api/users
+>>>>>>> Stashed changes
   * Headers:
     * Content-Type: application/json
   * Body:
@@ -272,8 +287,13 @@ Returns all the spots owned (created) by the current user.
 
 * Require Authentication: true
 * Request
+<<<<<<< Updated upstream
   * Method: ?
   * Route path: ?
+=======
+  * Method: GET
+  * Route path: /api/session/spots
+>>>>>>> Stashed changes
   * Body: none
 
 * Successful Response
@@ -312,8 +332,13 @@ Returns the details of a spot specified by its id.
 
 * Require Authentication: false
 * Request
+<<<<<<< Updated upstream
   * Method: ?
   * Route path: ?
+=======
+  * Method: GET
+  * Route path: /api/spots/:spotsId
+>>>>>>> Stashed changes
   * Body: none
 
 * Successful Response
@@ -377,8 +402,13 @@ Creates and returns a new spot.
 
 * Require Authentication: true
 * Request
+<<<<<<< Updated upstream
   * Method: ?
   * Route path: ?
+=======
+  * Method: POST
+  * Route path: /api/spots
+>>>>>>> Stashed changes
   * Headers:
     * Content-Type: application/json
   * Body:
@@ -451,8 +481,13 @@ Create and return a new image for a spot specified by id.
 * Require Authentication: true
 * Require proper authorization: Spot must belong to the current user
 * Request
+<<<<<<< Updated upstream
   * Method: ?
   * Route path: ?
+=======
+  * Method: POST
+  * Route path: /api/spots/:spotId/image
+>>>>>>> Stashed changes
   * Headers:
     * Content-Type: application/json
   * Body:
@@ -497,8 +532,13 @@ Updates and returns an existing spot.
 * Require Authentication: true
 * Require proper authorization: Spot must belong to the current user
 * Request
+<<<<<<< Updated upstream
   * Method: ?
   * Route path: ?
+=======
+  * Method: PUT
+  * Route path: /api/spots/:spotId
+>>>>>>> Stashed changes
   * Headers:
     * Content-Type: application/json
   * Body:
@@ -583,8 +623,13 @@ Deletes an existing spot.
 * Require Authentication: true
 * Require proper authorization: Spot must belong to the current user
 * Request
+<<<<<<< Updated upstream
   * Method: ?
   * Route path: ?
+=======
+  * Method: DELETE
+  * Route path: /api/spots/:spotId
+>>>>>>> Stashed changes
   * Body: none
 
 * Successful Response
@@ -619,8 +664,13 @@ Returns all the reviews written by the current user.
 
 * Require Authentication: true
 * Request
+<<<<<<< Updated upstream
   * Method: ?
   * Route path: ?
+=======
+  * Method: GET
+  * Route path: /api/session/reviews
+>>>>>>> Stashed changes
   * Body: none
 
 * Successful Response
@@ -675,8 +725,13 @@ Returns all the reviews that belong to a spot specified by id.
 
 * Require Authentication: false
 * Request
+<<<<<<< Updated upstream
   * Method: ?
   * Route path: ?
+=======
+  * Method: GET
+  * Route path: /api/spots/:spotId/reviews
+>>>>>>> Stashed changes
   * Body: none
 
 * Successful Response
@@ -730,8 +785,13 @@ Create and return a new review for a spot specified by id.
 
 * Require Authentication: true
 * Request
+<<<<<<< Updated upstream
   * Method: ?
   * Route path: ?
+=======
+  * Method: POST
+  * Route path: /api/spots/:spotId/reviews
+>>>>>>> Stashed changes
   * Headers:
     * Content-Type: application/json
   * Body:
@@ -808,8 +868,13 @@ Create and return a new image for a review specified by id.
 * Require Authentication: true
 * Require proper authorization: Review must belong to the current user
 * Request
+<<<<<<< Updated upstream
   * Method: ?
   * Route path: ?
+=======
+  * Method: POST
+  * Route path: /api/review/:reviewId/image
+>>>>>>> Stashed changes
   * Headers:
     * Content-Type: application/json
   * Body:
@@ -967,8 +1032,13 @@ Return all the bookings that the current user has made.
 
 * Require Authentication: true
 * Request
+<<<<<<< Updated upstream
   * Method: ?
   * Route path: ?
+=======
+  * Method: GET
+  * Route path: /api/session/bookings
+>>>>>>> Stashed changes
   * Body: none
 
 * Successful Response
@@ -1306,8 +1376,13 @@ Delete an existing image for a Spot.
 * Require Authentication: true
 * Require proper authorization: Spot must belong to the current user
 * Request
+<<<<<<< Updated upstream
   * Method: ?
   * Route path: ?
+=======
+  * Method: DELETE
+  * Route path: /api/spotImages/:imageId
+>>>>>>> Stashed changes
   * Body: none
 
 * Successful Response
@@ -1341,8 +1416,13 @@ Delete an existing image for a Review.
 * Require Authentication: true
 * Require proper authorization: Review must belong to the current user
 * Request
+<<<<<<< Updated upstream
   * Method: ?
   * Route path: ?
+=======
+  * Method: DELETE
+  * Route path: /api/reviewImages/:imageId
+>>>>>>> Stashed changes
   * Body: none
 
 * Successful Response
