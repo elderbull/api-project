@@ -22,6 +22,8 @@ const validateLogin = [
   handleValidationErrors
 ];
 
+//Get all Spots owned by the Current User
+router.get
 
 // Restore session user
 router.get(
@@ -77,7 +79,7 @@ router.post(
 
       await setTokenCookie(res, safeUser);
 
-      return res.json({
+      return res.status(200).json({
         user: safeUser
       });
     }

@@ -29,6 +29,11 @@ const validateSignup = [
     handleValidationErrors
   ];
 
+//Get All Spots owned by the Current User
+router.get('/:userId/spots', requireAuth, (req,res,next) => {
+  
+})
+
 // Sign up
 router.post(
     '/',
